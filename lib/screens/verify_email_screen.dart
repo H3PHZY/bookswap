@@ -24,7 +24,7 @@ class _VerifyEmailScreenState extends ConsumerState<VerifyEmailScreen> {
         timer.cancel();
         // The AuthGate will see the change and navigate automatically
         // but we can force a rebuild of the AuthGate's stream
-        ref.refresh(authStateProvider); 
+  final _ = ref.refresh(authStateProvider);
       }
     });
   }
