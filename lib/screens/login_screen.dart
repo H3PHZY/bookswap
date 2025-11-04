@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'auth_gate.dart'; // To get the authServiceProvider
-import '../services/screens/signup_screen.dart'; // To navigate to SignUpScreen
+import '../services/auth_service.dart';
+import 'signup_screen.dart';
 
 class LoginScreen extends ConsumerStatefulWidget {
   const LoginScreen({super.key});

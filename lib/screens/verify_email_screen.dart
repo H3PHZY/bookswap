@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'auth_gate.dart'; // To get the authServiceProvider
 
 class VerifyEmailScreen extends ConsumerStatefulWidget {
