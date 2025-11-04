@@ -87,4 +87,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'techari-be4ba.firebasestorage.app',
     measurementId: 'G-7447XYHQ3Q',
   );
+
 }

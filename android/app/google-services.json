@@ -29,6 +29,13 @@
             {
               "client_id": "859355606739-l3rh70n05cbn3dldoe8fph1hvgj2qqc1.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "859355606739-rqr0m4tnbjcb4550ngnqvsp9es2jhh5j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bookswap"
+              }
             }
           ]
         }
