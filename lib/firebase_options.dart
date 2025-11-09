@@ -7,13 +7,13 @@ import 'package:flutter/foundation.dart'
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
 /// Example:
-/// ```dart
+/// dart
 /// import 'firebase_options.dart';
 /// // ...
 /// await Firebase.initializeApp(
 ///   options: DefaultFirebaseOptions.currentPlatform,
 /// );
-/// ```
+/// 
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -41,51 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA_3g_CgehkFH-Wp0BL2LH1SVoDXlSIn-E',
-    appId: '1:859355606739:web:abfa0a666f241724932e26',
-    messagingSenderId: '859355606739',
-    projectId: 'techari-be4ba',
-    authDomain: 'techari-be4ba.firebaseapp.com',
-    storageBucket: 'techari-be4ba.firebasestorage.app',
-    measurementId: 'G-NJYGLKFBTF',
+    apiKey: 'AIzaSyDVyEmpi2EAVZNtkTi0y02VEPLr5wd0rzI',
+    appId: '1:514378549092:web:5a199dad59f4ac6f1d9c71',
+    messagingSenderId: '514378549092',
+    projectId: 'bookswap-751e6',
+    authDomain: 'bookswap-751e6.firebaseapp.com',
+    storageBucket: 'bookswap-751e6.firebasestorage.app',
+    measurementId: 'G-S78HSPXPS7',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCZhcPg2stOOUWEblgmCQYnXu3IJ66hHlU',
-    appId: '1:859355606739:android:afb850eda0b4ee6c932e26',
-    messagingSenderId: '859355606739',
-    projectId: 'techari-be4ba',
-    storageBucket: 'techari-be4ba.firebasestorage.app',
+    apiKey: 'AIzaSyAjqobgLIB4C2YlR7Q5v-NB7Lab66th0Mo',
+    appId: '1:514378549092:android:2a945f2ab7a56abe1d9c71',
+    messagingSenderId: '514378549092',
+    projectId: 'bookswap-751e6',
+    storageBucket: 'bookswap-751e6.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyChv5zzBFUZ1ureU6PyhgZOSh6BuIB2DVU',
-    appId: '1:859355606739:ios:f071d5504c6b23a6932e26',
-    messagingSenderId: '859355606739',
-    projectId: 'techari-be4ba',
-    storageBucket: 'techari-be4ba.firebasestorage.app',
-    iosClientId: '859355606739-rqr0m4tnbjcb4550ngnqvsp9es2jhh5j.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAJQfMNTUbd6QIORJ3v8Pl_OxdFJZBD38Q',
+    appId: '1:514378549092:ios:3d4301087779e8021d9c71',
+    messagingSenderId: '514378549092',
+    projectId: 'bookswap-751e6',
+    storageBucket: 'bookswap-751e6.firebasestorage.app',
     iosBundleId: 'com.example.bookswap',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyChv5zzBFUZ1ureU6PyhgZOSh6BuIB2DVU',
-    appId: '1:859355606739:ios:f071d5504c6b23a6932e26',
-    messagingSenderId: '859355606739',
-    projectId: 'techari-be4ba',
-    storageBucket: 'techari-be4ba.firebasestorage.app',
-    iosClientId: '859355606739-rqr0m4tnbjcb4550ngnqvsp9es2jhh5j.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAJQfMNTUbd6QIORJ3v8Pl_OxdFJZBD38Q',
+    appId: '1:514378549092:ios:3d4301087779e8021d9c71',
+    messagingSenderId: '514378549092',
+    projectId: 'bookswap-751e6',
+    storageBucket: 'bookswap-751e6.firebasestorage.app',
     iosBundleId: 'com.example.bookswap',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyA_3g_CgehkFH-Wp0BL2LH1SVoDXlSIn-E',
-    appId: '1:859355606739:web:3a0dcb2191077691932e26',
-    messagingSenderId: '859355606739',
-    projectId: 'techari-be4ba',
-    authDomain: 'techari-be4ba.firebaseapp.com',
-    storageBucket: 'techari-be4ba.firebasestorage.app',
-    measurementId: 'G-7447XYHQ3Q',
+    apiKey: 'AIzaSyDVyEmpi2EAVZNtkTi0y02VEPLr5wd0rzI',
+    appId: '1:514378549092:web:627906718cfedf031d9c71',
+    messagingSenderId: '514378549092',
+    projectId: 'bookswap-751e6',
+    authDomain: 'bookswap-751e6.firebaseapp.com',
+    storageBucket: 'bookswap-751e6.firebasestorage.app',
+    measurementId: 'G-SKG8CJR1BK',
   );
 
 }

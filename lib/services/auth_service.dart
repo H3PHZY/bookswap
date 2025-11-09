@@ -13,13 +13,10 @@ class AuthService {
   // Sign up with email & password
   Future<String> signUp({required String email, required String password}) async {
     try {
-      UserCredential userCredential = await _auth.createUserWithEmailAndPassword(
+      await _auth.createUserWithEmailAndPassword(
         email: email,
         password: password,
       );
-      
-      // Send email verification
-      await userCredential.user?.sendEmailVerification();
       
       return "Success";
     } on FirebaseAuthException catch (e) {
